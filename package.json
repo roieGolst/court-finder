@@ -1,0 +1,18 @@
+{
+  "name": "court-finder",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "tennis_court_finder.js",
+  "bin": {
+    "courtFinder": "./bin/courtFinderCLI.js"
+  },
+  "scripts": {
+    "scan": "node ./bin/courtFinderCLI.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
