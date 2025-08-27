@@ -6,6 +6,7 @@ A CLI tool to scan for available tennis courts on tennis.org.il.
 
 ```bash
 npm install
+npx playwright install chromium
 ```
 
 ## Usage
